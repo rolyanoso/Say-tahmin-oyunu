@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayı Tahmin Oyunu:</title>
+    <link rel="stylesheet" href="tahminOyunu.css">
+</head>
+<body>  
+    <div id="container">
+        <h2>Sayı Tahmin Oyunu:</h2><br>
+        <button onclick="baslat()" id="basla"> ✨ Başlat ✨</button>
+        <div style="display:block;" id="tahmin-alani">
+            <input type="number" id="tahmin" placeholder="Tahmininizi yazınız...">
+            <button onclick="kontrol()" id="control">🎲</button><br>
+            <em id="msj">sayı 1-100 arası!</em>
+        </div>
+    </div>
+
+    <script src="tahminOyunu.js"></script>
+</body>
+</html>
